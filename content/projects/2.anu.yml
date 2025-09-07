@@ -1,0 +1,6 @@
+title: Anu - OpenSource Vue UI Library
+description: DX focused utility based Vue component library. Anu is Vue & Nuxt compatible framework build using UnoCSS & VueUse. It provides ready to use components with great DX & flexibility. It is built with customization in mind.
+image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image related to code/development
+url: "https://anu-vue.netlify.app/"
+tags: ["UI Library", "Vue", "Nuxt", "Design System"]
+date: "2024"

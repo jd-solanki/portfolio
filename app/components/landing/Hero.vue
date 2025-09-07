@@ -110,7 +110,7 @@ defineProps<{
             :color="global.available ? 'success' : 'error'"
             variant="ghost"
             class="gap-2"
-            :to="global.available ? global.meetingLink : ''"
+            :to="global.available ? global.email : ''"
             :label="global.available ? 'Available for new projects' : 'Not available at the moment'"
           >
             <template #leading>
@@ -156,7 +156,7 @@ defineProps<{
       </div>
     </template>
 
-    <UMarquee
+    <!-- <UMarquee
       pause-on-hover
       class="py-2 -mx-8 sm:-mx-12 lg:-mx-16 [--duration:40s]"
     >
@@ -186,6 +186,6 @@ defineProps<{
           v-bind="img"
         />
       </Motion>
-    </UMarquee>
+    </UMarquee> -->
   </UPageHero>
 </template>

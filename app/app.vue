@@ -46,7 +46,10 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
 <template>
   <UApp>
     <NuxtLayout>
-      <UMain class="relative">
+      <UMain
+        class="relative"
+        style="--ui-header-height: calc(var(--spacing) * 26)"
+      >
         <NuxtPage />
       </UMain>
     </NuxtLayout>

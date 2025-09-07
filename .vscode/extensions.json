@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "redhat.vscode-yaml",
+        "matijao.vue-nuxt-snippets",
+        "vue.volar",
+        "meganrogge.template-string-converter",
+        "antfu.smart-clicks",
+        "yoavbls.pretty-ts-errors",
+        "xabikos.javascriptsnippets",
+        "dbaeumer.vscode-eslint"
+    ]
+}

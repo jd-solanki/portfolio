@@ -43,12 +43,8 @@ useSeoMeta({
         >
           <UButton
             :label="page.links[0]?.label"
-            :to="global.meetingLink"
-            v-bind="page.links[0]"
-          />
-          <UButton
             :to="`mailto:${global.email}`"
-            v-bind="page.links[1]"
+            v-bind="page.links[0]"
           />
         </div>
       </template>

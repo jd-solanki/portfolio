@@ -1,12 +1,18 @@
 export default defineAppConfig({
   global: {
+    author: {
+      name: 'JD Solanki',
+      avatar: {
+        src: 'https://avatars.githubusercontent.com/u/47495003?v=4',
+        alt: 'JD Solanki'
+      }
+    },
     picture: {
-      dark: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      light: 'https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      dark: 'https://avatars.githubusercontent.com/u/47495003?v=4',
+      light: 'https://avatars.githubusercontent.com/u/47495003?v=4',
       alt: 'My profile picture'
     },
-    meetingLink: 'https://cal.com/',
-    email: 'ui-pro@nuxt.com',
+    email: 'jdsolanki0001@gmail.com',
     available: true
   },
   ui: {
@@ -25,21 +31,25 @@ export default defineAppConfig({
   footer: {
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
-      'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
-    }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
-    }]
+    links: [
+      {
+        'icon': 'i-simple-icons-x',
+        'to': 'https://x.com/me_jd_solanki',
+        'target': '_blank',
+        'aria-label': 'Nuxt on X'
+      },
+      {
+        'icon': 'i-simple-icons-github',
+        'to': 'https://github.com/jd-solanki',
+        'target': '_blank',
+        'aria-label': 'Nuxt UI on GitHub'
+      },
+      {
+        'icon': 'i-simple-icons-discord',
+        'to': 'https://discord.com/users/592391931355463719',
+        'target': '_blank',
+        'aria-label': 'JD Solanki on Discord'
+      }
+    ]
   }
 })
